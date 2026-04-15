@@ -1,0 +1,27 @@
+<!DOCTYPE html><html lang="en" class="scroll-smooth"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="What I'm currently focused on."><meta name="generator" content="Astro v6.1.6"><title>Now — Alfi Shahri</title><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"><script>
+      (() => {
+        const stored = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const theme = stored ?? (prefersDark ? 'dark' : 'light');
+        document.documentElement.classList.toggle('dark', theme === 'dark');
+      })();
+    </script><link rel="stylesheet" href="/_astro/Section.sy3hGgss.css"></head> <body class="min-h-screen flex flex-col"> <header class="w-full"> <div class="max-w-readable mx-auto px-6 py-8 flex items-center justify-between"> <a href="/" class="font-semibold tracking-tightest text-lg no-underline">A.S.</a> <nav class="flex items-center gap-6 text-sm"> <a href="/work" class="no-underline text-ink/60 dark:text-paper/60 hover:text-ink dark:hover:text-paper"> Work </a><a href="/projects" class="no-underline text-ink/60 dark:text-paper/60 hover:text-ink dark:hover:text-paper"> Projects </a><a href="/uses" class="no-underline text-ink/60 dark:text-paper/60 hover:text-ink dark:hover:text-paper"> Uses </a><a href="/now" class="no-underline text-ink dark:text-paper"> Now </a> <button id="theme-toggle" type="button" aria-label="Toggle color theme" class="inline-flex items-center justify-center w-8 h-8 rounded-full text-ink/70 dark:text-paper/70 hover:text-ink dark:hover:text-paper transition-colors"> <svg class="block dark:hidden" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"></path></svg> <svg class="hidden dark:block" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg> </button> <script>
+  (() => {
+    const btn = document.getElementById('theme-toggle');
+    if (!btn) return;
+    btn.addEventListener('click', () => {
+      const isDark = document.documentElement.classList.toggle('dark');
+      localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    });
+  })();
+</script> </nav> </div> </header> <main class="flex-1">  <section class="max-w-readable mx-auto px-6 py-8 "> <div class="flex items-center justify-between mb-6"> <h2 class="text-lg font-bold uppercase tracking-[0.15em] text-ink/70 dark:text-paper/70"> Now </h2>  </div>  <p class="text-xs uppercase tracking-[0.18em] text-ink/50 dark:text-paper/50 mb-8">Updated April 2026</p> <div class="space-y-6 text-ink/75 dark:text-paper/75 leading-relaxed"> <p>
+Leading backend architecture at BUMA — event-driven services on Azure Service Bus, a shared security package enforcing OWASP Top 10, and greenfield platforms built Code-First.
+</p> <p>
+Piloting agentic AI tooling inside the SDLC: where can an autonomous agent actually replace routine work without regressing production quality?
+</p> <p>
+Going deeper on <strong>Go</strong> for high-concurrency microservices and spending time in the <strong>GCP</strong> ecosystem alongside Azure.
+</p> <p>
+Reading more about resilient distributed systems and the long tail of domain modelling. Less about frameworks, more about boundaries.
+</p> </div> <p class="mt-10 text-sm text-ink/50 dark:text-paper/50">
+Inspired by <a href="https://nownownow.com/about" target="_blank" rel="noopener">nownownow.com</a>.
+</p>  </section>  </main> <footer class="w-full border-t border-ink/10 dark:border-paper/10 mt-24"> <div class="max-w-readable mx-auto px-6 py-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-sm text-ink/60 dark:text-paper/60"> <p>© 2026 Alfi Shahri</p> <div class="flex items-center gap-5"> <a href="https://github.com/alshadev" target="_blank" rel="noopener" class="no-underline hover:text-ink dark:hover:text-paper">GitHub</a> <a href="https://linkedin.com/in/alfishahri" target="_blank" rel="noopener" class="no-underline hover:text-ink dark:hover:text-paper">LinkedIn</a> <a href="mailto:alfishahri.dev@gmail.com" class="no-underline hover:text-ink dark:hover:text-paper">Email</a> </div> </div> </footer> </body></html>
